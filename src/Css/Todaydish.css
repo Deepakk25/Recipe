@@ -1,0 +1,95 @@
+/* Zomato-Themed CSS for Today's Dish Component */
+
+.today-dish-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: #e23744; /* Zomato signature red */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  .today-dish-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .today-dish-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    color: #333;
+  }
+  
+  .today-dish-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .today-dish-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  .today-dish-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .today-dish-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e23744;
+    margin: 10px 0;
+  }
+  
+  .today-dish-price {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+    font-weight: 500;
+  }
+  
+  .today-dish-description {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .today-dish-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e23744;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .today-dish-button:hover {
+    background-color: #b62836;
+  }
+  

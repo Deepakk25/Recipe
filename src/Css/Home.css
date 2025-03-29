@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+/* Home Container */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Welcome Banner */
+.DivBlock {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #e60000; /* Zomato red */
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.DivBlock h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.DivBlock h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+/* Call-to-Action Button */
+.cta-button1 {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #e60000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button1:hover {
+  background-color: #c10000; /* Darker red for hover effect */
+}
+
+/* Search Bar Section */
+.search-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.search-section h2 {
+  font-size: 2.5rem;
+  color: #e60000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 12px 15px;
+  width: 50%;
+  max-width: 600px;
+  border: 2px solid #e60000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.search-button {
+  padding: 12px 25px;
+  background-color: #e60000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #c10000;
+}
+
+/* Trending Recipes Section */
+.trending-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.trending-section h2 {
+  font-size: 2.5rem;
+  color: #e60000;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.recipe-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.view-button {
+  padding: 10px 20px;
+  background-color: #e60000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+  background-color: #c10000;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333333; /* Dark footer for contrast */
+  color: #ffffff;
+  margin-top: 60px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin: 0;
+}
